@@ -1,0 +1,154 @@
+.navbar {
+  overflow: hidden;
+  background-color: #white;
+}
+	.navlogo {
+
+	}
+	.navname {
+	  float: left;
+	  display: block;
+	  color: #000000;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	}
+
+	.navlink {
+	  float: right;
+	  display: block;
+	  color: #000000;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	}
+
+
+
+.mainpic {
+  padding: 80px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  background-image: url(images/menubanner.jpg);
+  background-size: 100%;
+}
+
+.maininfo {
+  padding: 20px; 
+  text-align: center;
+  background: #606867;
+  color: white;
+}
+
+.mainsocials {
+	  float: center;
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 20px;
+	  text-decoration: none;
+	  margin: auto;
+	  background: #606867;
+}
+
+
+
+
+
+.menutitle {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: white; 
+  color: #182525;
+}
+
+
+ 
+.menubox {
+       display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 100vw;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+}
+	.menurow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.menucolumn {
+		float: left;
+		width: 33%;
+	}
+
+
+.whobox {
+       display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        width: 100vw;
+        box-sizing: border-box;
+        justify-content: center;
+}
+	.whorow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.whocolumn1 {
+		float: left;
+		width: 25%;
+	}
+	.whocolumn2 {
+		float: left;
+		width: 75%;
+	}
+
+
+.pagecontainer {
+	justify-content: space-evenly;
+	display: flex;
+	width: 100%;
+	padding-top: 10px;
+	padding bottom: 10px;	
+}
+	.pagerow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.pagecolumn1 {
+		float: left;
+		width: 50%;
+		height: 300px;
+		text-align: center;
+		color: white;
+		background-image: url(images/caterbanner.jpg);
+		background-size: 100%;
+	}
+	.pagecolumn2 {
+		float: left;
+		width: 50%;
+		height: 300px;
+		text-align: center;
+		color: white;
+		background-image: url(images/cakebanner.jpg);
+		background-size: 100%;
+	}
+	.bakelink {
+
+	}
+
+
+
+.footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+  background: #606867;
+  color: white;
+}
